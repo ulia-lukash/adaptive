@@ -1,0 +1,23 @@
+.whats-app-btn {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background: #25A587;
+    padding: 8px 28px 8px 20px;
+    border-radius: 32px;
+}
+
+.whats-app-btn-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.whats-app-btn-link {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
