@@ -1,0 +1,60 @@
+.experience-container {
+    padding: 110px 110px 130px 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.experience-title {
+    color: #323F6F;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.experience-content {
+    display: flex;
+    gap: 240px;
+    align-items: center;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.paragraph {
+    color: #323F6F;
+    font-size: 26px;
+    line-height: 135%;
+    letter-spacing: 0.8px;
+}
+
+.stats-section {
+    display: flex;
+    flex-direction: column;
+    gap: 78px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 63px;
+    font-weight: 700;
+    color: #323F6F;
+    line-height: 63px;
+    white-space: nowrap;
+}
+
+.stat-label {
+    color: #323F6F;
+    font-size: 32px;
+    font-weight: 600;
+    white-space: nowrap;
+}

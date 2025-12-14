@@ -1,5 +1,6 @@
 import { Header } from "~/components/header/Header";
 import type { Route } from "./+types/home";
+import { Experience } from "~/components/experience/Experience";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +10,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Header />;
+  return (
+    <div className="w-full">
+      <Header />
+      <Experience />
+    </div>
+  );
 }
