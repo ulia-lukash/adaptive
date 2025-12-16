@@ -3,7 +3,12 @@
 @import "./components/common/requestBtn.css";
 @import "./components/common/whatsAppBtn.css";
 @import "./components/experience/experience.css";
+@import "./components/cycle/cycle.css";
 
 .text-green {
     color: #25A587;
+}
+
+.text-white {
+    color: white;
 }

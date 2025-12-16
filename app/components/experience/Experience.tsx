@@ -6,7 +6,7 @@ export function Experience() {
                 <div className="text-section">
                     <div className="paragraph"><span className="font-bold">Разрабатываю бизнес-планы,</span> ТЭО и ФЭО, а также финансовые модели, инвестиционне тизеры и презентации для различных отраслей экономики Казахстана.</div>
                     <div className="paragraph"><span className="font-bold text-green">Более 10 лет в сфере финансового анализа,</span> стратегического планирования и инвестиционного консалтинга.</div>
-                    <div className="paragraph"><span className="font-bold text-green">Более 100 проектов</span>Более 100 проектов — от производственных предприятий до социальных, инфраструктурных и IТ-инициатив.</div>
+                    <div className="paragraph"><span className="font-bold text-green">Более 100 проектов</span> — от производственных предприятий до социальных, инфраструктурных и IТ-инициатив.</div>
                 </div>
                 <div className="stats-section">
                     <div className="stat">

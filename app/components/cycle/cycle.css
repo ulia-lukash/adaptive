@@ -1,0 +1,63 @@
+@import "./arrowComp.css";
+
+.cycle-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 110px 110px 130px 110px;
+    position: relative;
+}
+
+.background-circle {
+    background-image: radial-gradient(#008852, #164125);
+    width: 769px;
+    height: 769px;
+    filter: blur(385px);
+    position: absolute;
+}
+
+.left-circle {
+    top: -271px;
+    left: -468px;
+}
+
+.right-circle {
+    right: -271px;
+    bottom: -468px;
+}
+
+.cycle-label {
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+}
+
+.cycle-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    z-index: 10;
+}
+
+.content-caption {
+    padding: 0px 16px;
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.contact-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    z-index: 10;
+}
+
+.arrow-row {
+    display: flex;
+}
