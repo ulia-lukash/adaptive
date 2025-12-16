@@ -7,7 +7,7 @@ export function Cycle(){
         <div className="cycle-container">
             <div className="background-circle left-circle"></div>
             <div className="background-circle right-circle"></div>
-            <div className="cycle-label">Полный цикл сопровождения проектов</div>
+            <div className="section-label text-white">Полный цикл сопровождения проектов</div>
             <div className="cycle-content">
                 <div className="arrow-row">
                     <ArrowComp title={"Идея"} caption={"Анализ концепции и потенциала"} />

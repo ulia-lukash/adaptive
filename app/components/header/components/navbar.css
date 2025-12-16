@@ -19,5 +19,6 @@
     font-size: 20px;
     color: white;
     font-weight: 300;
+    white-space: nowrap;
 }
 

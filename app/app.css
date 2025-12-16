@@ -4,6 +4,7 @@
 @import "./components/common/whatsAppBtn.css";
 @import "./components/experience/experience.css";
 @import "./components/cycle/cycle.css";
+@import "./components/investDocs/investDocs.css";
 
 .text-green {
     color: #25A587;
@@ -11,4 +12,15 @@
 
 .text-white {
     color: white;
+}
+
+.text-blue {
+    color: #323F6F;
+}
+
+.section-label {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    z-index: 10;
 }

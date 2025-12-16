@@ -2,6 +2,7 @@ import { Header } from "~/components/header/Header";
 import type { Route } from "./+types/home";
 import { Experience } from "~/components/experience/Experience";
 import { Cycle } from "~/components/cycle/Cycle";
+import { InvestDocs } from "~/components/investDocs/InvestDocs";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Experience />
       <Cycle />
+      <InvestDocs />
     </div>
   );
 }

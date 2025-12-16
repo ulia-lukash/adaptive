@@ -1,7 +1,7 @@
 export function Experience() {
     return (
         <div className="experience-container">
-            <div className="experience-title">Опыт и экспертиза</div>
+            <div className="section-label text-blue">Опыт и экспертиза</div>
             <div className="experience-content">
                 <div className="text-section">
                     <div className="paragraph"><span className="font-bold">Разрабатываю бизнес-планы,</span> ТЭО и ФЭО, а также финансовые модели, инвестиционне тизеры и презентации для различных отраслей экономики Казахстана.</div>
