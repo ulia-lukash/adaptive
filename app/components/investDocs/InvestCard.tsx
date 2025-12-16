@@ -1,4 +1,5 @@
 export function InvestCard(props: {label: String, caption: String}) {
+    // TODO: icons
     return (
         <div className="invest-card">
             <div className="icon-circle"></div>
